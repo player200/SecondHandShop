@@ -1,0 +1,33 @@
+﻿@model IEnumerable<MessagesAllListingServiceModel>
+@{
+    ViewData["Title"] = "All Messages";
+}
+<h2>@ViewData["Title"]</h2>
+@if (Model.Any())
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <td>Sended from</td>
+                <td>Sended on</td>
+                <td></td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var message in Model)
+            {
+                <tr>
+                    <td>@message.SenderName</td>
+                    <td>@message.MessagedOn.ToShortDateString() - @message.MessagedOn.ToShortTimeString()</td>
+                    <td>
+                        <a class="btn btn-primary" asp-controller="Messages" asp-action="Details" asp-route-id="@message.Id">Read</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p style="color:blue">You don't have any messages.</p>
+}

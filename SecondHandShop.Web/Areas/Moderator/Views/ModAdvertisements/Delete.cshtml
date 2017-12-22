@@ -1,0 +1,17 @@
+﻿@model ModeratorAdvertisementServiceModel
+@{
+    ViewData["Title"] = $"Delete - {Model.Name}";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-area="Moderator" asp-controller="ModAdvertisements" asp-action="Delete" method="post">
+            <hr />
+            <small>*Are you sure you want delete @Model.Name .</small>
+            <br/>
+            <button type="submit" class="btn btn-danger">Delete</button>
+        </form>
+    </div>
+</div>

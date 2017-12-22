@@ -1,0 +1,39 @@
+﻿@model PicturesFormModel
+@{
+    ViewData["Title"] = "Add Picures";
+}
+<h2>Add Picures</h2>
+<small style="color:darkgreen">**Required to put urls of the pictures you want to add.</small>
+<div class="row">
+    <div class="col-md-4">
+        <form asp-area="" asp-controller="Pictures" asp-action="Add" asp-route-id="@Model.AdvertisementId" method="post">
+            <hr />
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="UrlPathFirst"></label>
+                <input asp-for="UrlPathFirst" class="form-control" placeholder="http://someimg.jpg/ ..." />
+                <span asp-validation-for="UrlPathFirst" class="text-danger"></span>
+            </div>
+            <small>**The first picture will be the prime picture.</small>
+            <br />
+            <small>**The prime picute is the one that will be shown for main picture.</small>
+            <br />
+            <br />
+            <div class="form-group">
+                <label asp-for="UrlPathSecond"></label>
+                <input asp-for="UrlPathSecond" class="form-control" placeholder="http://someimg.jpg/ ..." />
+                <span asp-validation-for="UrlPathSecond" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UrlPathThird"></label>
+                <input asp-for="UrlPathThird" class="form-control" placeholder="http://someimg.jpg/ ..." />
+                <span asp-validation-for="UrlPathThird" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-default">Add Pictures</button>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

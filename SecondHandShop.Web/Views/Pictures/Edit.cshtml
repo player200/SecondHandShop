@@ -1,0 +1,30 @@
+﻿@model PicturesListingServiceModel
+@{
+    ViewData["Title"] = "Edit Pictures";
+}
+
+<h2>@ViewData["Title"]</h2>
+<small style="color:darkgreen">**Required to put urls of the pictures you want to add.</small>
+<br/>
+<small>**The first picture will be the prime picture.</small>
+<br />
+<small>**The prime picute is the one that will be shown for main picture.</small>
+<div class="row">
+    <div class="col-md-4">
+        <form asp-route-pictureId="@Model.Id" asp-route-advertisementId="@Model.AdvertisementId" method="post">
+                <div class="form-group">
+                    <label asp-for="UrlPath"></label>
+                    <input asp-for="UrlPath" class="form-control" />
+                    <span asp-validation-for="UrlPath" class="form-text text-danger"></span>
+                </div>
+            <div>
+                <a class="btn btn-default" asp-area="" asp-controller="Advertisements" asp-action="Details" asp-route-id="@Model.AdvertisementId">Cancel</a>
+                <input class="btn btn-success" type="submit" name="Edit Pictures" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

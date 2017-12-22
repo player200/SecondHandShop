@@ -1,0 +1,32 @@
+﻿@model AdminCategoryViewModel
+@{
+    ViewData["Title"] = "All Categories";
+}
+@if (Model.Categories.Any())
+{
+    <h2>@ViewData["Title"]</h2>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var category in Model.Categories)
+            {
+                <tr>
+                    <td>@category.Name</td>
+                    <td>
+                        <a asp-area="Admin" asp-controller="Categories" asp-action="Edit" asp-route-id="@category.Id" class="btn btn-sm btn-success">Edit</a>
+                        <a asp-area="Admin" asp-controller="Categories" asp-action="Delete" asp-route-id="@category.Id" class="btn btn-sm btn-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p style="color:blue">There is no categories.</p>
+}

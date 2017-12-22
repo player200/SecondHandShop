@@ -1,0 +1,41 @@
+﻿@model AdvertisementAllServiceModel
+@{
+    ViewData["Title"] = "All Your Advertisements";
+}
+<h2>@ViewData["Title"]</h2>
+@if (Model.Advertisements.Any())
+{
+    <div class="row">
+        @for (int i = 0; i < Model.Advertisements.Count(); i++)
+        {
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading text-center">
+                        <a asp-area="" asp-controller="Advertisements" asp-action="Details" asp-route-id="@Model.Advertisements[i].Id">@Model.Advertisements[i].Name</a>
+                    </div>
+                    <div class="page-body text-center">
+                        @if (Model.Pictures[i] == "")
+                    {
+                            <p style="color:blue">Pictures don't exist for that advertisment.</p>
+                        }
+                        else
+                        {
+                            <img src="@Model.Pictures[i]" height="200" width="300" class="table-bordered" />
+                        }
+                    </div>
+                    <div class="panel-body text-center">
+                        $ @Model.Advertisements[i].Price
+                    </div>
+                    <div class="panel-body text-center">
+                        @Model.Advertisements[i].PublishDate.ToShortDateString() - @Model.Advertisements[i].PublishDate.ToShortTimeString()
+                    </div>
+                </div>
+
+            </div>
+        }
+    </div>
+}
+else
+{
+    <p style="color:blue">You don't have any advertisements at the moment.</p>
+}

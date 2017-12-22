@@ -1,0 +1,27 @@
+﻿@model MessageIndividualServiceModel
+@{
+    ViewData["Title"] = "Read your message";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<div class="container">
+    <div class="modal-body row">
+        <div class="col-md-8">
+            <strong>From : </strong>@Model.SenderUserName
+            <br />
+            <strong>Sended on: </strong>@Model.MessagedOn.ToShortDateString() @Model.MessagedOn.ToShortTimeString()
+            <br />
+            <strong>Content: </strong>
+            <text style="white-space:pre-line">
+                @Model.Content
+            </text>
+            <a class="btn btn-default" asp-controller="Messages" asp-action="AllMessages" asp-route-username="@this.User.Identity.Name">Go back</a>
+            <a class="btn btn-primary" asp-controller="Messages" asp-action="Send" asp-route-resieverName="@Model.SenderUserName">Resend message</a>
+            <br/>
+            <form asp-controller="Messages" asp-action="Delete" asp-route-id="@Model.Id" method="post">
+                <button type="submit" class="btn btn-danger">Delete</button>
+            </form>
+        </div>
+    </div>
+</div>

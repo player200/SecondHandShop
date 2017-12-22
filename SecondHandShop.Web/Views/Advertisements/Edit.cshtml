@@ -1,0 +1,39 @@
+﻿@model AdvertisementUsableViewModel
+@{
+    ViewData["Title"] = "Edit Advertisement";
+}
+
+<h2>@ViewData["Title"] - @Model.Advertisements.Name</h2>
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-area="" asp-controller="Advertisements" asp-action="Edit" method="post">
+            <hr />
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Advertisements.Name"></label>
+                <input asp-for="Advertisements.Name" class="form-control" />
+                <span asp-validation-for="Advertisements.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Advertisements.Description"></label>
+                <textarea asp-for="Advertisements.Description" class="form-control"></textarea>
+                <span asp-validation-for="Advertisements.Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Advertisements.Price"></label>
+                <input asp-for="Advertisements.Price" class="form-control" />
+                <span asp-validation-for="Advertisements.Price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Categories"></label>
+                <select asp-for="Advertisements.CategoryId" asp-items="Model.Categories" class="form-control parts-select"></select>
+            </div>
+            <button type="submit" class="btn btn-success">Edit Advertisement</button>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "SecongHandShop.Test": {
+      "commandName": "Project"
+    },
+    "SecondHandShop.Test": {
+      "commandName": "Executable"
+    }
+  }
+}
