@@ -13249,11 +13249,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\softuni-projects\\10.C# MVC Frameworks - ASP.NET Core\\SecondHandShop.Web\\SecondHandShop.Web\\SecondHandShop.Web.csproj",
+      "projectUniqueName": "C:\\Users\\admin\\Desktop\\SecondHandShop.Web\\trunk\\SecondHandShop.Web\\SecondHandShop.Web.csproj",
       "projectName": "SecondHandShop.Web",
-      "projectPath": "D:\\softuni-projects\\10.C# MVC Frameworks - ASP.NET Core\\SecondHandShop.Web\\SecondHandShop.Web\\SecondHandShop.Web.csproj",
+      "projectPath": "C:\\Users\\admin\\Desktop\\SecondHandShop.Web\\trunk\\SecondHandShop.Web\\SecondHandShop.Web.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\softuni-projects\\10.C# MVC Frameworks - ASP.NET Core\\SecondHandShop.Web\\SecondHandShop.Web\\obj\\",
+      "outputPath": "C:\\Users\\admin\\Desktop\\SecondHandShop.Web\\trunk\\SecondHandShop.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13272,11 +13272,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "D:\\softuni-projects\\10.C# MVC Frameworks - ASP.NET Core\\SecondHandShop.Web\\SecondHandShop.Service\\SecondHandShop.Service.csproj": {
-              "projectPath": "D:\\softuni-projects\\10.C# MVC Frameworks - ASP.NET Core\\SecondHandShop.Web\\SecondHandShop.Service\\SecondHandShop.Service.csproj"
+            "C:\\Users\\admin\\Desktop\\SecondHandShop.Web\\trunk\\SecondHandShop.Service\\SecondHandShop.Service.csproj": {
+              "projectPath": "C:\\Users\\admin\\Desktop\\SecondHandShop.Web\\trunk\\SecondHandShop.Service\\SecondHandShop.Service.csproj"
             },
-            "D:\\softuni-projects\\10.C# MVC Frameworks - ASP.NET Core\\SecondHandShop.Web\\SecondHandShop.Data\\SecondHandShop.Data.csproj": {
-              "projectPath": "D:\\softuni-projects\\10.C# MVC Frameworks - ASP.NET Core\\SecondHandShop.Web\\SecondHandShop.Data\\SecondHandShop.Data.csproj"
+            "C:\\Users\\admin\\Desktop\\SecondHandShop.Web\\trunk\\SecondHandShop.Data\\SecondHandShop.Data.csproj": {
+              "projectPath": "C:\\Users\\admin\\Desktop\\SecondHandShop.Web\\trunk\\SecondHandShop.Data\\SecondHandShop.Data.csproj"
             }
           }
         }

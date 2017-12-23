@@ -13,7 +13,7 @@
         [MinLength(DataConstants.PicturesUrlPathMinLenth)]
         [MaxLength(DataConstants.PicturesUrlPathMaxLenth)]
         [Url]
-        [Display(Name ="Url Path")]
+        [Display(Name = DataConstants.DisplayUrlPathPicture)]
         public string UrlPath { get; set; }
 
         public bool IsPrime { get; set; }

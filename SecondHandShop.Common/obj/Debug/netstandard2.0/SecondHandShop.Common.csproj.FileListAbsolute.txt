@@ -7,3 +7,12 @@ D:\softuni-projects\10.C# MVC Frameworks - ASP.NET Core\SecondHandShop.Web\Secon
 D:\softuni-projects\10.C# MVC Frameworks - ASP.NET Core\SecondHandShop.Web\SecondHandShop.Common\obj\Debug\netstandard2.0\SecondHandShop.Common.csprojResolveAssemblyReference.cache
 D:\softuni-projects\10.C# MVC Frameworks - ASP.NET Core\SecondHandShop.Web\SecondHandShop.Common\obj\Debug\netstandard2.0\SecondHandShop.Common.dll
 D:\softuni-projects\10.C# MVC Frameworks - ASP.NET Core\SecondHandShop.Web\SecondHandShop.Common\obj\Debug\netstandard2.0\SecondHandShop.Common.pdb
+C:\Users\admin\Desktop\SecondHandShop.Web\trunk\SecondHandShop.Common\bin\Debug\netstandard2.0\SecondHandShop.Common.deps.json
+C:\Users\admin\Desktop\SecondHandShop.Web\trunk\SecondHandShop.Common\bin\Debug\netstandard2.0\SecondHandShop.Common.dll
+C:\Users\admin\Desktop\SecondHandShop.Web\trunk\SecondHandShop.Common\bin\Debug\netstandard2.0\SecondHandShop.Common.pdb
+C:\Users\admin\Desktop\SecondHandShop.Web\trunk\SecondHandShop.Common\obj\Debug\netstandard2.0\SecondHandShop.Common.csprojResolveAssemblyReference.cache
+C:\Users\admin\Desktop\SecondHandShop.Web\trunk\SecondHandShop.Common\obj\Debug\netstandard2.0\SecondHandShop.Common.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\SecondHandShop.Web\trunk\SecondHandShop.Common\obj\Debug\netstandard2.0\SecondHandShop.Common.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\SecondHandShop.Web\trunk\SecondHandShop.Common\obj\Debug\netstandard2.0\SecondHandShop.Common.AssemblyInfo.cs
+C:\Users\admin\Desktop\SecondHandShop.Web\trunk\SecondHandShop.Common\obj\Debug\netstandard2.0\SecondHandShop.Common.dll
+C:\Users\admin\Desktop\SecondHandShop.Web\trunk\SecondHandShop.Common\obj\Debug\netstandard2.0\SecondHandShop.Common.pdb

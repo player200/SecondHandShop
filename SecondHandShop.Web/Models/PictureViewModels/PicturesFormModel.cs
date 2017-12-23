@@ -9,21 +9,21 @@
         [MinLength(DataConstants.PicturesUrlPathMinLenth)]
         [MaxLength(DataConstants.PicturesUrlPathMaxLenth)]
         [Url]
-        [Display(Name = "First picure")]
+        [Display(Name = DataConstants.DisplayFirstUrlPicture)]
         public string UrlPathFirst { get; set; }
 
         [Required]
         [MinLength(DataConstants.PicturesUrlPathMinLenth)]
         [MaxLength(DataConstants.PicturesUrlPathMaxLenth)]
         [Url]
-        [Display(Name = "Second picure")]
+        [Display(Name = DataConstants.DisplaySecondUrlPicture)]
         public string UrlPathSecond { get; set; }
 
         [Required]
         [MinLength(DataConstants.PicturesUrlPathMinLenth)]
         [MaxLength(DataConstants.PicturesUrlPathMaxLenth)]
         [Url]
-        [Display(Name = "Third picure")]
+        [Display(Name = DataConstants.DisplayThirdUrlPicture)]
         public string UrlPathThird { get; set; }
 
         public int AdvertisementId { get; set; }

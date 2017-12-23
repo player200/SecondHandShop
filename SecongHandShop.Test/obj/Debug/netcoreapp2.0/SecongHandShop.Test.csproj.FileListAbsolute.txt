@@ -20,3 +20,25 @@ D:\softuni-projects\10.C# MVC Frameworks - ASP.NET Core\SecondHandShop.Web\Secon
 D:\softuni-projects\10.C# MVC Frameworks - ASP.NET Core\SecondHandShop.Web\SecongHandShop.Test\obj\Debug\netcoreapp2.0\SecondHandShop.Test.pdb
 D:\softuni-projects\10.C# MVC Frameworks - ASP.NET Core\SecondHandShop.Web\SecongHandShop.Test\bin\Debug\netcoreapp2.0\SecondHandShop.Web.dll
 D:\softuni-projects\10.C# MVC Frameworks - ASP.NET Core\SecondHandShop.Web\SecongHandShop.Test\bin\Debug\netcoreapp2.0\SecondHandShop.Web.pdb
+C:\Users\admin\Desktop\SecondHandShop.Web\trunk\SecongHandShop.Test\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\admin\Desktop\SecondHandShop.Web\trunk\SecongHandShop.Test\bin\Debug\netcoreapp2.0\xunit.runner.utility.netstandard15.dll
+C:\Users\admin\Desktop\SecondHandShop.Web\trunk\SecongHandShop.Test\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netstandard15.dll
+C:\Users\admin\Desktop\SecondHandShop.Web\trunk\SecongHandShop.Test\bin\Debug\netcoreapp2.0\SecondHandShop.Test.deps.json
+C:\Users\admin\Desktop\SecondHandShop.Web\trunk\SecongHandShop.Test\bin\Debug\netcoreapp2.0\SecondHandShop.Test.runtimeconfig.json
+C:\Users\admin\Desktop\SecondHandShop.Web\trunk\SecongHandShop.Test\bin\Debug\netcoreapp2.0\SecondHandShop.Test.runtimeconfig.dev.json
+C:\Users\admin\Desktop\SecondHandShop.Web\trunk\SecongHandShop.Test\bin\Debug\netcoreapp2.0\SecondHandShop.Test.dll
+C:\Users\admin\Desktop\SecondHandShop.Web\trunk\SecongHandShop.Test\bin\Debug\netcoreapp2.0\SecondHandShop.Test.pdb
+C:\Users\admin\Desktop\SecondHandShop.Web\trunk\SecongHandShop.Test\bin\Debug\netcoreapp2.0\SecondHandShop.Common.dll
+C:\Users\admin\Desktop\SecondHandShop.Web\trunk\SecongHandShop.Test\bin\Debug\netcoreapp2.0\SecondHandShop.Data.dll
+C:\Users\admin\Desktop\SecondHandShop.Web\trunk\SecongHandShop.Test\bin\Debug\netcoreapp2.0\SecondHandShop.Service.dll
+C:\Users\admin\Desktop\SecondHandShop.Web\trunk\SecongHandShop.Test\bin\Debug\netcoreapp2.0\SecondHandShop.Web.dll
+C:\Users\admin\Desktop\SecondHandShop.Web\trunk\SecongHandShop.Test\bin\Debug\netcoreapp2.0\SecondHandShop.Data.pdb
+C:\Users\admin\Desktop\SecondHandShop.Web\trunk\SecongHandShop.Test\bin\Debug\netcoreapp2.0\SecondHandShop.Service.pdb
+C:\Users\admin\Desktop\SecondHandShop.Web\trunk\SecongHandShop.Test\bin\Debug\netcoreapp2.0\SecondHandShop.Common.pdb
+C:\Users\admin\Desktop\SecondHandShop.Web\trunk\SecongHandShop.Test\bin\Debug\netcoreapp2.0\SecondHandShop.Web.pdb
+C:\Users\admin\Desktop\SecondHandShop.Web\trunk\SecongHandShop.Test\obj\Debug\netcoreapp2.0\SecongHandShop.Test.csprojResolveAssemblyReference.cache
+C:\Users\admin\Desktop\SecondHandShop.Web\trunk\SecongHandShop.Test\obj\Debug\netcoreapp2.0\SecongHandShop.Test.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\SecondHandShop.Web\trunk\SecongHandShop.Test\obj\Debug\netcoreapp2.0\SecongHandShop.Test.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\SecondHandShop.Web\trunk\SecongHandShop.Test\obj\Debug\netcoreapp2.0\SecongHandShop.Test.AssemblyInfo.cs
+C:\Users\admin\Desktop\SecondHandShop.Web\trunk\SecongHandShop.Test\obj\Debug\netcoreapp2.0\SecondHandShop.Test.dll
+C:\Users\admin\Desktop\SecondHandShop.Web\trunk\SecongHandShop.Test\obj\Debug\netcoreapp2.0\SecondHandShop.Test.pdb

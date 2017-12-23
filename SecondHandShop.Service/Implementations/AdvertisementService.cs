@@ -2,6 +2,7 @@
 {
     using AutoMapper.QueryableExtensions;
     using Microsoft.EntityFrameworkCore;
+    using SecondHandShop.Data;
     using SecondHandShop.Data.Models;
     using SecondHandShop.Service.Models.Advertisements;
     using SecondHandShop.Web.Data;
@@ -235,7 +236,7 @@
                 }
                 else
                 {
-                    urls.Add("");
+                    urls.Add(DataConstants.ImgDefoutNotFound);
                 }
             }
 

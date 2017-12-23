@@ -187,8 +187,8 @@
 
             var picturesService = new PictureService(db);
             var urlPathFirst = "htp://dwadwd.jpg";
-            var urlPathSecond = "htp://dwadwd.jpg2";
-            var urlPathThird = "htp://dwadwd.jpg3";
+            var urlPathSecond = "htp://dwadwd2.jpg";
+            var urlPathThird = "htp://dwadwd3.jpg";
             var isPrimeFirst = true;
             var isPrimeSecond = false;
             var isPrimeThird = false;

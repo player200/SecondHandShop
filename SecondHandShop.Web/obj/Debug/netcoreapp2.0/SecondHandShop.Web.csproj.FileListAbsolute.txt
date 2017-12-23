@@ -16,3 +16,21 @@ D:\softuni-projects\10.C# MVC Frameworks - ASP.NET Core\SecondHandShop.Web\Secon
 D:\softuni-projects\10.C# MVC Frameworks - ASP.NET Core\SecondHandShop.Web\SecondHandShop.Web\bin\Debug\netcoreapp2.0\SecondHandShop.Service.dll
 D:\softuni-projects\10.C# MVC Frameworks - ASP.NET Core\SecondHandShop.Web\SecondHandShop.Web\bin\Debug\netcoreapp2.0\SecondHandShop.Service.pdb
 D:\softuni-projects\10.C# MVC Frameworks - ASP.NET Core\SecondHandShop.Web\SecondHandShop.Web\bin\Debug\netcoreapp2.0\SecondHandShop.Common.pdb
+C:\Users\admin\Desktop\SecondHandShop.Web\trunk\SecondHandShop.Web\bin\Debug\netcoreapp2.0\SecondHandShop.Web.deps.json
+C:\Users\admin\Desktop\SecondHandShop.Web\trunk\SecondHandShop.Web\bin\Debug\netcoreapp2.0\SecondHandShop.Web.runtimeconfig.json
+C:\Users\admin\Desktop\SecondHandShop.Web\trunk\SecondHandShop.Web\bin\Debug\netcoreapp2.0\SecondHandShop.Web.runtimeconfig.dev.json
+C:\Users\admin\Desktop\SecondHandShop.Web\trunk\SecondHandShop.Web\bin\Debug\netcoreapp2.0\SecondHandShop.Web.dll
+C:\Users\admin\Desktop\SecondHandShop.Web\trunk\SecondHandShop.Web\bin\Debug\netcoreapp2.0\SecondHandShop.Web.pdb
+C:\Users\admin\Desktop\SecondHandShop.Web\trunk\SecondHandShop.Web\bin\Debug\netcoreapp2.0\SecondHandShop.Common.dll
+C:\Users\admin\Desktop\SecondHandShop.Web\trunk\SecondHandShop.Web\bin\Debug\netcoreapp2.0\SecondHandShop.Data.dll
+C:\Users\admin\Desktop\SecondHandShop.Web\trunk\SecondHandShop.Web\bin\Debug\netcoreapp2.0\SecondHandShop.Service.dll
+C:\Users\admin\Desktop\SecondHandShop.Web\trunk\SecondHandShop.Web\bin\Debug\netcoreapp2.0\SecondHandShop.Data.pdb
+C:\Users\admin\Desktop\SecondHandShop.Web\trunk\SecondHandShop.Web\bin\Debug\netcoreapp2.0\SecondHandShop.Service.pdb
+C:\Users\admin\Desktop\SecondHandShop.Web\trunk\SecondHandShop.Web\bin\Debug\netcoreapp2.0\SecondHandShop.Common.pdb
+C:\Users\admin\Desktop\SecondHandShop.Web\trunk\SecondHandShop.Web\obj\Debug\netcoreapp2.0\SecondHandShop.Web.csprojResolveAssemblyReference.cache
+C:\Users\admin\Desktop\SecondHandShop.Web\trunk\SecondHandShop.Web\obj\Debug\netcoreapp2.0\SecondHandShop.Web.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\SecondHandShop.Web\trunk\SecondHandShop.Web\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\admin\Desktop\SecondHandShop.Web\trunk\SecondHandShop.Web\obj\Debug\netcoreapp2.0\SecondHandShop.Web.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\SecondHandShop.Web\trunk\SecondHandShop.Web\obj\Debug\netcoreapp2.0\SecondHandShop.Web.AssemblyInfo.cs
+C:\Users\admin\Desktop\SecondHandShop.Web\trunk\SecondHandShop.Web\obj\Debug\netcoreapp2.0\SecondHandShop.Web.dll
+C:\Users\admin\Desktop\SecondHandShop.Web\trunk\SecondHandShop.Web\obj\Debug\netcoreapp2.0\SecondHandShop.Web.pdb

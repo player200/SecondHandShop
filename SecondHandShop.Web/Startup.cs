@@ -24,15 +24,15 @@
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<SecondHandShopDbContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+                options.UseSqlServer(Configuration.GetConnectionString(WebConstants.DefaultConnectionPath)));
 
             services.AddIdentity<User, IdentityRole>(options =>
-                {
-                    options.Password.RequireDigit = false;
-                    options.Password.RequireLowercase = false;
-                    options.Password.RequireUppercase = false;
-                    options.Password.RequireNonAlphanumeric = false;
-                })
+            {
+                options.Password.RequireDigit = false;
+                options.Password.RequireLowercase = false;
+                options.Password.RequireUppercase = false;
+                options.Password.RequireNonAlphanumeric = false;
+            })
                 .AddEntityFrameworkStores<SecondHandShopDbContext>()
                 .AddDefaultTokenProviders();
 
@@ -58,7 +58,7 @@
             }
             else
             {
-                app.UseExceptionHandler("/Home/Error");
+                app.UseExceptionHandler(WebConstants.UseExceptionHandlerPath);
             }
 
             app.UseStaticFiles();
@@ -68,12 +68,12 @@
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
-                   name: "areas",
-                   template: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+                   name: WebConstants.Areas,
+                   template: WebConstants.AreasTemplate);
 
                 routes.MapRoute(
-                    name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    name: WebConstants.Default,
+                    template: WebConstants.DefaultTemplate);
             });
         }
     }

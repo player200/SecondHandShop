@@ -1,23 +1,24 @@
 ﻿namespace SecondHandShop.Web.Models.ManageViewModels
 {
+    using SecondHandShop.Data;
     using System.ComponentModel.DataAnnotations;
 
     public class ChangePasswordViewModel
     {
         [Required]
         [DataType(DataType.Password)]
-        [Display(Name = "Current password")]
+        [Display(Name = DataConstants.DisplayCurrentPassword)]
         public string OldPassword { get; set; }
 
         [Required]
-        [StringLength(100, ErrorMessage = "The {0} must be at least {2} and at max {1} characters long.", MinimumLength = 6)]
+        [StringLength(DataConstants.NewPasswordMaxLenth, ErrorMessage = DataConstants.ErrorMessageTwoFactorCode, MinimumLength = DataConstants.MinLenthOfStuffs)]
         [DataType(DataType.Password)]
-        [Display(Name = "New password")]
+        [Display(Name = DataConstants.DisplayNewPassword)]
         public string NewPassword { get; set; }
 
         [DataType(DataType.Password)]
-        [Display(Name = "Confirm new password")]
-        [Compare("NewPassword", ErrorMessage = "The new password and confirmation password do not match.")]
+        [Display(Name = DataConstants.DisplayConfirmNewPassword)]
+        [Compare(DataConstants.NewPassword, ErrorMessage = DataConstants.ErrorMessageConfirmNewPassword)]
         public string ConfirmPassword { get; set; }
 
         public string StatusMessage { get; set; }

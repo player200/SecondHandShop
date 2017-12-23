@@ -3,6 +3,7 @@
     using AutoMapper;
     using FluentAssertions;
     using Microsoft.EntityFrameworkCore;
+    using SecondHandShop.Data;
     using SecondHandShop.Data.Models;
     using SecondHandShop.Service.Implementations;
     using SecondHandShop.Web.Data;
@@ -381,19 +382,19 @@
                .Pictures
                .ElementAt(0)
                .Should()
-               .Be("");
+               .Be(DataConstants.ImgDefoutNotFound);
 
             result
                .Pictures
                .ElementAt(1)
                .Should()
-               .Be("");
+               .Be(DataConstants.ImgDefoutNotFound);
 
             result
                .Pictures
                .ElementAt(2)
                .Should()
-               .Be("");
+               .Be(DataConstants.ImgDefoutNotFound);
 
             result
                .Pictures
@@ -442,13 +443,13 @@
                .Pictures
                .ElementAt(0)
                .Should()
-               .Be("");
+               .Be(DataConstants.ImgDefoutNotFound);
 
             result
                .Pictures
                .ElementAt(1)
                .Should()
-               .Be("");
+               .Be(DataConstants.ImgDefoutNotFound);
             
             result
                .Pictures
@@ -497,13 +498,13 @@
                .Pictures
                .ElementAt(0)
                .Should()
-               .Be("");
+               .Be(DataConstants.ImgDefoutNotFound);
 
             result
                .Pictures
                .ElementAt(1)
                .Should()
-               .Be("");
+               .Be(DataConstants.ImgDefoutNotFound);
 
             result
                .Pictures
@@ -560,19 +561,19 @@
                .Pictures
                .ElementAt(0)
                .Should()
-               .Be("");
+               .Be(DataConstants.ImgDefoutNotFound);
 
             result
                .Pictures
                .ElementAt(1)
                .Should()
-               .Be("");
+               .Be(DataConstants.ImgDefoutNotFound);
 
             result
                .Pictures
                .ElementAt(2)
                .Should()
-               .Be("");
+               .Be(DataConstants.ImgDefoutNotFound);
 
             result
                .Pictures

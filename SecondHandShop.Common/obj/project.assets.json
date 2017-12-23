@@ -2944,11 +2944,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\softuni-projects\\10.C# MVC Frameworks - ASP.NET Core\\SecondHandShop.Web\\SecondHandShop.Common\\SecondHandShop.Common.csproj",
+      "projectUniqueName": "C:\\Users\\admin\\Desktop\\SecondHandShop.Web\\trunk\\SecondHandShop.Common\\SecondHandShop.Common.csproj",
       "projectName": "SecondHandShop.Common",
-      "projectPath": "D:\\softuni-projects\\10.C# MVC Frameworks - ASP.NET Core\\SecondHandShop.Web\\SecondHandShop.Common\\SecondHandShop.Common.csproj",
+      "projectPath": "C:\\Users\\admin\\Desktop\\SecondHandShop.Web\\trunk\\SecondHandShop.Common\\SecondHandShop.Common.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\softuni-projects\\10.C# MVC Frameworks - ASP.NET Core\\SecondHandShop.Web\\SecondHandShop.Common\\obj\\",
+      "outputPath": "C:\\Users\\admin\\Desktop\\SecondHandShop.Web\\trunk\\SecondHandShop.Common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

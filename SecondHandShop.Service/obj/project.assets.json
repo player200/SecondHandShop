@@ -4666,11 +4666,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\softuni-projects\\10.C# MVC Frameworks - ASP.NET Core\\SecondHandShop.Web\\SecondHandShop.Service\\SecondHandShop.Service.csproj",
+      "projectUniqueName": "C:\\Users\\admin\\Desktop\\SecondHandShop.Web\\trunk\\SecondHandShop.Service\\SecondHandShop.Service.csproj",
       "projectName": "SecondHandShop.Service",
-      "projectPath": "D:\\softuni-projects\\10.C# MVC Frameworks - ASP.NET Core\\SecondHandShop.Web\\SecondHandShop.Service\\SecondHandShop.Service.csproj",
+      "projectPath": "C:\\Users\\admin\\Desktop\\SecondHandShop.Web\\trunk\\SecondHandShop.Service\\SecondHandShop.Service.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\softuni-projects\\10.C# MVC Frameworks - ASP.NET Core\\SecondHandShop.Web\\SecondHandShop.Service\\obj\\",
+      "outputPath": "C:\\Users\\admin\\Desktop\\SecondHandShop.Web\\trunk\\SecondHandShop.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -4689,11 +4689,11 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "D:\\softuni-projects\\10.C# MVC Frameworks - ASP.NET Core\\SecondHandShop.Web\\SecondHandShop.Data\\SecondHandShop.Data.csproj": {
-              "projectPath": "D:\\softuni-projects\\10.C# MVC Frameworks - ASP.NET Core\\SecondHandShop.Web\\SecondHandShop.Data\\SecondHandShop.Data.csproj"
+            "C:\\Users\\admin\\Desktop\\SecondHandShop.Web\\trunk\\SecondHandShop.Data\\SecondHandShop.Data.csproj": {
+              "projectPath": "C:\\Users\\admin\\Desktop\\SecondHandShop.Web\\trunk\\SecondHandShop.Data\\SecondHandShop.Data.csproj"
             },
-            "D:\\softuni-projects\\10.C# MVC Frameworks - ASP.NET Core\\SecondHandShop.Web\\SecondHandShop.Common\\SecondHandShop.Common.csproj": {
-              "projectPath": "D:\\softuni-projects\\10.C# MVC Frameworks - ASP.NET Core\\SecondHandShop.Web\\SecondHandShop.Common\\SecondHandShop.Common.csproj"
+            "C:\\Users\\admin\\Desktop\\SecondHandShop.Web\\trunk\\SecondHandShop.Common\\SecondHandShop.Common.csproj": {
+              "projectPath": "C:\\Users\\admin\\Desktop\\SecondHandShop.Web\\trunk\\SecondHandShop.Common\\SecondHandShop.Common.csproj"
             }
           }
         }

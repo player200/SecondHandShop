@@ -19,10 +19,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Web\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\SecondHandShop.Data\SecondHandShop.Data.csproj" />
     <ProjectReference Include="..\SecondHandShop.Service\SecondHandShop.Service.csproj" />
     <ProjectReference Include="..\SecondHandShop.Web\SecondHandShop.Web.csproj" />

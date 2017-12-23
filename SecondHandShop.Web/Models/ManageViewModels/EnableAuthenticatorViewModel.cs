@@ -1,19 +1,20 @@
 ﻿namespace SecondHandShop.Web.Models.ManageViewModels
 {
+    using SecondHandShop.Data;
     using System.ComponentModel;
     using System.ComponentModel.DataAnnotations;
 
     public class EnableAuthenticatorViewModel
     {
-            [Required]
-            [StringLength(7, ErrorMessage = "The {0} must be at least {2} and at max {1} characters long.", MinimumLength = 6)]
-            [DataType(DataType.Text)]
-            [Display(Name = "Verification Code")]
-            public string Code { get; set; }
+        [Required]
+        [StringLength(DataConstants.CodeMaxLenth, ErrorMessage = DataConstants.ErrorMessageTwoFactorCode, MinimumLength = DataConstants.MinLenthOfStuffs)]
+        [DataType(DataType.Text)]
+        [Display(Name = DataConstants.DisplayCode)]
+        public string Code { get; set; }
 
-            [ReadOnly(true)]
-            public string SharedKey { get; set; }
+        [ReadOnly(true)]
+        public string SharedKey { get; set; }
 
-            public string AuthenticatorUri { get; set; }
+        public string AuthenticatorUri { get; set; }
     }
 }

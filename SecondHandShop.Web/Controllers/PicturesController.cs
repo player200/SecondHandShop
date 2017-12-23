@@ -2,6 +2,7 @@
 {
     using Microsoft.AspNetCore.Authorization;
     using Microsoft.AspNetCore.Mvc;
+    using SecondHandShop.Data;
     using SecondHandShop.Service;
     using SecondHandShop.Service.Models.Pictures;
     using SecondHandShop.Web.Infrastructures.Extentions;
@@ -75,6 +76,32 @@
                 return View(model);
             }
 
+            var firstUrlEnding = model.UrlPathFirst.Trim().Substring(model.UrlPathFirst.Length - 4);
+            var secondUrlEnding = model.UrlPathSecond.Trim().Substring(model.UrlPathSecond.Length - 4);
+            var thirdUrlEnding = model.UrlPathThird.Trim().Substring(model.UrlPathThird.Length - 4);
+
+            var correctPicture = true;
+            if (firstUrlEnding != WebConstants.EndsWithJpg
+                && firstUrlEnding != WebConstants.EndsWithPng)
+            {
+                correctPicture = false;
+                model.UrlPathFirst = DataConstants.ImgDefoutNotFound;
+            }
+
+            if (secondUrlEnding != WebConstants.EndsWithJpg
+                 && secondUrlEnding != WebConstants.EndsWithPng)
+            {
+                correctPicture = false;
+                model.UrlPathSecond = DataConstants.ImgDefoutNotFound;
+            }
+
+            if (thirdUrlEnding != WebConstants.EndsWithJpg
+                 && thirdUrlEnding != WebConstants.EndsWithPng)
+            {
+                correctPicture = false;
+                model.UrlPathThird = DataConstants.ImgDefoutNotFound;
+            }
+
             await picture.Create(
                 model.UrlPathFirst,
                 true,
@@ -84,7 +111,14 @@
                 false,
                 id);
 
-            TempData.AddSuccessMessage(WebConstants.SuccessMessagePictureAdd);
+            if (correctPicture)
+            {
+                TempData.AddSuccessMessage(WebConstants.SuccessMessagePictureAdd);
+            }
+            else
+            {
+                TempData.AddErrorMessage(WebConstants.ErrorMessagePicutureWithNoPngOrJpg);
+            }
             return RedirectToAction(nameof(AdvertisementsController.Details), WebConstants.AdvertisementsControllerName, new { id = id });
         }
 
@@ -139,11 +173,28 @@
                 return RedirectToAction(nameof(AdvertisementsController.All), WebConstants.AdvertisementsControllerName);
             }
 
+            var urlEnding = model.UrlPath.Substring(model.UrlPath.Length - 4);
+
+            var correctPicture = true;
+            if (urlEnding != WebConstants.EndsWithJpg
+                && urlEnding != WebConstants.EndsWithPng)
+            {
+                correctPicture = false;
+                model.UrlPath = DataConstants.ImgDefoutNotFound;
+            }
+
             await this.picture.Edit(
                     pictureId,
                     model.UrlPath);
 
-            TempData.AddSuccessMessage(WebConstants.SuccessMessagePicutreEdit);
+            if (correctPicture)
+            {
+                TempData.AddSuccessMessage(WebConstants.SuccessMessagePicutreEdit);
+            }
+            else
+            {
+                TempData.AddErrorMessage(WebConstants.ErrorMessagePicutureWithNoPngOrJpg);
+            }
             return RedirectToAction(nameof(AdvertisementsController.Details), WebConstants.AdvertisementsControllerName, new { id = model.AdvertisementId });
         }
     }

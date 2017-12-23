@@ -1,5 +1,6 @@
 ﻿namespace SecondHandShop.Web.Models.ManageViewModels
 {
+    using SecondHandShop.Data;
     using System.ComponentModel.DataAnnotations;
 
     public class IndexViewModel
@@ -13,7 +14,7 @@
         public string Email { get; set; }
 
         [Phone]
-        [Display(Name = "Phone number")]
+        [Display(Name = DataConstants.DisplayPhoneNumber)]
         public string PhoneNumber { get; set; }
 
         public string StatusMessage { get; set; }

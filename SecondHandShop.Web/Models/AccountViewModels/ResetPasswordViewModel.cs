@@ -1,5 +1,6 @@
 ﻿namespace SecondHandShop.Web.Models.AccountViewModels
 {
+    using SecondHandShop.Data;
     using System.ComponentModel.DataAnnotations;
 
     public class ResetPasswordViewModel
@@ -9,13 +10,13 @@
         public string Email { get; set; }
 
         [Required]
-        [StringLength(100, ErrorMessage = "The {0} must be at least {2} and at max {1} characters long.", MinimumLength = 6)]
+        [StringLength(DataConstants.NewPasswordMaxLenth, ErrorMessage = DataConstants.ErrorMessageTwoFactorCode, MinimumLength = DataConstants.MinLenthOfStuffs)]
         [DataType(DataType.Password)]
         public string Password { get; set; }
 
         [DataType(DataType.Password)]
-        [Display(Name = "Confirm password")]
-        [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
+        [Display(Name = DataConstants.DisplayConfirmPassword)]
+        [Compare(DataConstants.Password, ErrorMessage = DataConstants.ErrorMessageConfirmPassword)]
         public string ConfirmPassword { get; set; }
 
         public string Code { get; set; }
